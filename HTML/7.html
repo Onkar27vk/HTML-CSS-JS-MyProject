@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            choose your profession
+            <select name="profession" id="profession">
+                <option value="student">student</option>
+                <option value="Developer">Developer</option>
+            </select>
+        </div>
+    </form>
+
+    <form action="/server">
+      <label for="vol">select your vol level</label>
+      <input type="range" id="vol" min="10" max="100" value="range" name="vol"> 
+      <button>submit</button> 
+    </form>
+
+    <form action="/server">
+        <label for="fb">Enter your feedback</label>
+        <textarea name="feedback" id="fb" placeholder="feedback"></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h3 {
+    color: #B92B27;
+}
+
+#login {
+    background-color: azure;
+}
+
+#signup {
+    background-color: #B92B27;
+    color: cyan;
+}
+
+.a {
+    color: darkgreen;
+}
+
+.follow {
+    color: midnightblue;
+}
+
+p a {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+nav ul li {
+    color: pink;
+}
+
+p + h3{
+    text-decoration: red wavy underline;
+}
+
+div > input {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+input[type="text"]{
+    color: red;
+} 
+
+input[type="password"] {
+    color: green;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+button:active{
+    background-color: darkmagenta;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+h1::first-letter {
+    color: goldenrod;
+}
+
+h3 {
+    background-color: #B92B27;
+}
+
+h3 {
+    background-color: blue;
+} 

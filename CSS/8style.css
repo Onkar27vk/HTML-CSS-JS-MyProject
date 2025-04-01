@@ -1,0 +1,63 @@
+/* section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+
+/* div {
+    width: 300px;
+    height: 60px;
+    text-align: end;
+    background-color: bisque;
+    border: 4px solid black;
+    margin: 10px;
+    box-shadow: 2px 2px 50px red;
+} */
+
+
+/* div:nth-of-type(2n) {
+    background-color: burlywood;
+}
+
+div:nth-of-type(3n) {
+    background-color: rgb(151, 142, 14);
+}
+
+#one {
+    transform: rotate(45deg);
+}
+
+#two {
+    transform: scale(0.5, 1);
+}
+
+#three {
+    transform: translate(-100px);
+}
+
+#four {
+    transform: skew(45deg);
+} */
+
+/* div {
+    height: 300px;
+    width: 600px;
+    background-color: rgb(106, 90, 106);
+    margin: 10px auto;
+    background-image: url("8.jpg");
+    background-size: contain;
+} */
+
+.card {
+    height: 200px ;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    
+}
